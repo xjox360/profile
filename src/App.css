@@ -137,13 +137,11 @@ main section.leftAside {
   height: 8rem;
   pointer-events: none;
   position: absolute;
-
   top: 0;
 }
 .App-logo-static {
   height: 8rem;
   position: absolute;
-
   top: 0;
 }
 .logo-container {
@@ -159,23 +157,26 @@ main section.leftAside {
   align-items: center;
   margin-top: 20%;
 }
-.logo-container-big img {
+/* .logo-container-big img {
   height: 5rem;
   width: 5rem;
-}
+} */
 
 @media (prefers-reduced-motion: no-preference) {
   .logo-container-big img {
-    animation: App-logo-spin infinite 3s linear;
+    animation: 5s App-logo-spin infinite ease-in-out;
   }
 }
 
 @keyframes App-logo-spin {
-  from {
+  0% {
     transform: rotate(0deg);
   }
-  to {
-    transform: rotate(360deg);
+  20% {
+    transform: rotate(90deg);
+  }
+  100% {
+    transform: rotate(90deg);
   }
 }
 /*************************************************************/

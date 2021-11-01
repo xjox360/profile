@@ -33,8 +33,10 @@ function App() {
       <header className="App-header">
         <div className="logo-container">
           <img src={back} className="App-logo-static" alt="logo" />
+          <div className="logo-container-big">
+            <img src={x} className="App-logo-static" alt="logo" />
+          </div>
 
-          <img src={x} className="App-logo-static" alt="logo" />
           <img src={letras} className="App-logo-static" alt="logo" />
         </div>
       </header>

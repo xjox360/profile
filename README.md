@@ -1,2 +1,2 @@
 # profile
-Data analyst and Developer
+Data analyst and Software Developer

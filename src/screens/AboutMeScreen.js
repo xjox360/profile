@@ -3,7 +3,7 @@ import React from "react";
 export default function AboutMeScreen() {
   return (
     <div>
-      <h1>About Me</h1>
+      <h1 className="beautyTitle">About Me</h1>
       <p>
         Creative, troubleshooter, recursive and curious, some words that define
         to myself. Experienced data analyst, 3+ years analyzing data and

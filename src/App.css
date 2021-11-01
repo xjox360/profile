@@ -129,6 +129,10 @@ main section.leftAside {
 .screens {
   text-align: center;
 }
+.beautyTitle {
+  text-align: center;
+  font-size: 3rem;
+}
 
 /*************************************************************/
 /**************************Logo*******************************/
@@ -157,10 +161,19 @@ main section.leftAside {
   align-items: center;
   margin-top: 20%;
 }
-/* .logo-container-big img {
+
+.logo-container-big2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20%;
+}
+.logo-container-big2 img {
   height: 5rem;
   width: 5rem;
-} */
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .logo-container-big img {
@@ -177,6 +190,21 @@ main section.leftAside {
   }
   100% {
     transform: rotate(90deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .logo-container-big2 img {
+    animation: 1s App-logo-spin2 infinite linear;
+  }
+}
+
+@keyframes App-logo-spin2 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
   }
 }
 /*************************************************************/
